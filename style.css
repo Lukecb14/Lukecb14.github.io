@@ -9,20 +9,75 @@
     font-weight: bold;
   }
 
-.main-body{
+* {
+  font-family: Montserrat;
+  margin: 0;
+  padding: 0;
+  color: #f0f2ef;
+}
+
+.nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-right: 30px;
+}
+
+.nav li{
+  display: inline;
+}
+
+.nav {
+  border-bottom: 1px solid #f0f2ef;;
+}
+
+.nav-page {
+  margin: 100px 20px;
+}
+
+.nav-initials {
+  margin: 0px 20px;
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+.nav-items {
+  padding: 20px 0px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #f0f2ef;
+}
+
+.nav-link:hover{
+  color: orange;
+}
+
+
+.nav-initials{
+  text-decoration: none;
+  color: #f0f2ef;
+}
+
+.nav-initials:hover{
+  color: orange;
+}
+
+  .main-title{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
     font-family: Montserrat;
-    color: #f0f2ef;
+    /* color: #f0f2ef; */
 }
 
-.main-body h1{
+.main-title h1{
     font-weight: bold;
     font-size: 500%;
-    color: #f0f2ef;
+    /* color: #f0f2ef; */
 }
 
 body{
